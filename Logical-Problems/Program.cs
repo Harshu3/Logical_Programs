@@ -7,9 +7,9 @@ namespace Logical_Problems
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome to Logical Problem!");
-            Console.WriteLine("Prime Number Program");
-            Prime_Number prime_Number = new Prime_Number();
-            prime_Number.PrimeNum();
+            Console.WriteLine("Reverse Number Program");
+            Reverse_Number reverse_Number = new Reverse_Number();
+            reverse_Number.ReverseNum();
         }
     }
 }
