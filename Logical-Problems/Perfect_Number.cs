@@ -23,7 +23,7 @@ namespace Logical_Problems
             }
             if (factor == n)
             {
-                Console.WriteLine($"{n} is a perfect number");
+                Console.WriteLine($"{n} is a Perfect number");
             }
             else
             {
