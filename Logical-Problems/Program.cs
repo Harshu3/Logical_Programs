@@ -7,9 +7,9 @@ namespace Logical_Problems
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome to Logical Problem!");
-            Console.WriteLine("Fibonacci Program");
-            Fibonacci fibonacci = new Fibonacci();
-            fibonacci.Fibo();
+            Console.WriteLine("Perfect Number Program");
+            Perfect_Number perfect_Number = new Perfect_Number();
+            perfect_Number.PerfectNum();
         }
     }
 }
