@@ -7,9 +7,9 @@ namespace Logical_Problems
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome to Logical Problem!");
-            Console.WriteLine("Perfect Number Program");
-            Perfect_Number perfect_Number = new Perfect_Number();
-            perfect_Number.PerfectNum();
+            Console.WriteLine("Prime Number Program");
+            Prime_Number prime_Number = new Prime_Number();
+            prime_Number.PrimeNum();
         }
     }
 }
