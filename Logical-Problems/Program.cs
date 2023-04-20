@@ -7,9 +7,9 @@ namespace Logical_Problems
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome to Logical Problem!");
-            Console.WriteLine("Reverse Number Program");
-            Reverse_Number reverse_Number = new Reverse_Number();
-            reverse_Number.ReverseNum();
+            Console.WriteLine("Coupon Number Program");
+            Coupon_Number coupon_Number = new Coupon_Number();
+            coupon_Number.CouponNum();
         }
     }
 }
