@@ -6,10 +6,11 @@ namespace Logical_Problems
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Welcome to Logical Problem!");
-            Console.WriteLine("Stop Watch Program");
-            Stop_Watch stop = new Stop_Watch();
-            stop.StopWatch();
+            Console.WriteLine("Welcome to NUnit Testing Problem!");
+            Console.WriteLine("Vending Machine Program");
+            Console.WriteLine("Enter Amount");
+            int amount = Convert.ToInt32(Console.ReadLine());
+            Vending_Machine.GetMinimumNumOfNotes(amount);
         }
     }
 }
