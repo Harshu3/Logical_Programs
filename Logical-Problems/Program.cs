@@ -7,9 +7,9 @@ namespace Logical_Problems
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome to Logical Problem!");
-            Console.WriteLine("Coupon Number Program");
-            Coupon_Number coupon_Number = new Coupon_Number();
-            coupon_Number.CouponNum();
+            Console.WriteLine("Stop Watch Program");
+            Stop_Watch stop = new Stop_Watch();
+            stop.StopWatch();
         }
     }
 }
