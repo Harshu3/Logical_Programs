@@ -7,10 +7,10 @@ namespace Logical_Problems
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome to NUnit Testing Problem!");
-            Console.WriteLine("Vending Machine Program");
-            Console.WriteLine("Enter Amount");
-            int amount = Convert.ToInt32(Console.ReadLine());
-            Vending_Machine.GetMinimumNumOfNotes(amount);
+            Console.WriteLine("Temperature Conversion Program");
+            Temperature_Conversion temp = new Temperature_Conversion();
+            temp.TempConvInCelsius();
+            temp.TempConvInFahrenheit();
         }
     }
 }
